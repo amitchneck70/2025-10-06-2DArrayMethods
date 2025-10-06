@@ -1,13 +1,22 @@
 import java.util.Arrays;
 public class ArrayDemo{
   public static void main(String[]args){
-    //write your tests here!
-    //You can now use Arrays.toString(yourArray) instead of writing arrayToString again.
-    //You also need to use Arrays.deepToString(yourArray) when it is a 2d array.
-    //Compare Arrays.toString(yourArray) to YOUR arrayToString() method to make sure yours is correct
-    //Compare Arrays.deeoToString(your2DArray) to YOUR arrayToString() method to make sure yours is correct
-    //do not use any other Arrays.method()
-   
+int [][] case1={
+{3,4,5}
+{6,7,8}};
+int[][]case2={
+{9,2},
+{1}
+};    
+System.out.println("case 1 results:");
+  System.out.println(Arrays.deepToString(case1));
+System.out.println("html case1 result:")
+System.out.println(htmlTable(case1));
+System.out.println();
+System.out.println("case 2  results:");
+  System.out.println(Arrays.deepToString(case2)); 
+System.out.println("html case2 result:") 
+System.out.println(htmlTable(case2));}}  
 public static String arrToString(int[]ary){
   String ans "["";
     for (int i = 0; i < nums.length; i++) {
